@@ -12,7 +12,7 @@ Backend
     # ruby gems
     $ bundle install
     # linter + git hooks
-    $ npm install
+    $ yarn
     ```
 
 2. Migrate and seed database 

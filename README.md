@@ -41,10 +41,10 @@ Frontend
 
 Backend
 
-1. Start Rails api server
+1. Start Rails api server on `port 3001` (with `yarn` - why not)
 
     ```
-    $ rails s -p 3001
+    $ yarn start
     ```
 
 Frontend

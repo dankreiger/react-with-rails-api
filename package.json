@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "rails server -p 3001",
     "precommit": "lint-staged",
     "sort": "sort-package-json"
   },

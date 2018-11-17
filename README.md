@@ -9,7 +9,10 @@ Backend
 1. Install dependencies 
 
     ```sh
+    # ruby gems
     $ bundle install
+    # linter + git hooks
+    $ npm install
     ```
 
 2. Migrate and seed database 

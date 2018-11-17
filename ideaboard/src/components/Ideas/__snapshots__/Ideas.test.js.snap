@@ -17,31 +17,16 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "function",
     "props": Object {
-      "children": <Row
-        tag="div"
-      >
-        <Spinner />
-      </Row>,
+      "children": <Spinner />,
     },
     "ref": null,
     "rendered": Object {
       "instance": null,
       "key": undefined,
       "nodeType": "function",
-      "props": Object {
-        "children": <Spinner />,
-        "tag": "div",
-      },
+      "props": Object {},
       "ref": null,
-      "rendered": Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "function",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
+      "rendered": null,
       "type": [Function],
     },
     "type": Object {
@@ -54,7 +39,9 @@ ShallowWrapper {
           "
   height: calc(100vh - 80px);
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 ",
         ],
       },
@@ -74,31 +61,16 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "function",
       "props": Object {
-        "children": <Row
-          tag="div"
-        >
-          <Spinner />
-        </Row>,
+        "children": <Spinner />,
       },
       "ref": null,
       "rendered": Object {
         "instance": null,
         "key": undefined,
         "nodeType": "function",
-        "props": Object {
-          "children": <Spinner />,
-          "tag": "div",
-        },
+        "props": Object {},
         "ref": null,
-        "rendered": Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "function",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
+        "rendered": null,
         "type": [Function],
       },
       "type": Object {
@@ -111,7 +83,9 @@ ShallowWrapper {
             "
   height: calc(100vh - 80px);
   display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 ",
           ],
         },

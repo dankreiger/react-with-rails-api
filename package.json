@@ -1,16 +1,28 @@
 {
   "scripts": {
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "sort": "sort-package-json"
   },
-  "lint-staged": {
-    "app/**/*.{js,es6,jsx}": [
-      "./node_modules/prettier/bin/prettier.js --trailing-comma --single-quote es5 --write",
-      "git add"
-    ]
+  "dependencies": {
+    "sort-package-json": "1.16.0"
   },
   "devDependencies": {
     "husky": "1.1.4",
     "lint-staged": "8.0.5",
     "prettier": "1.15.2"
+  },
+  "lint-staged": {
+    "app/**/*.{js,es6,jsx}": [
+      "./node_modules/prettier/bin/prettier.js --trailing-comma --single-quote es5 --write",
+      "git add"
+    ],
+    "ideaboard/**/*.{js,es6,jsx,scss,css}": [
+      "./node_modules/prettier/bin/prettier.js --single-quote --trailing-comma es5 --write",
+      "git add"
+    ],
+    "{app,test}/**/*.rb": [
+      "bundle exec rubocop -a",
+      "git add"
+    ]
   }
 }

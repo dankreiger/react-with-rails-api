@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - 'stable'
+before_install:
+  - ruby --version
+  - rvm install 2.4.0
+  - ruby --version 
+  - gem install bundler 
+install:
+  - bundle install  
+cache:
+  directories:
+    - node_modules
+script:
+  - chmod +x ./citest.sh
+  - ./citest.sh  

@@ -1,0 +1,33 @@
+{
+  "name": "ideaboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "sort": "sort-package-json",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "dependencies": {
+    "axios": "0.18.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
+    "react-scripts": "2.1.1",
+    "styled-components": "4.1.1"
+  },
+  "devDependencies": {
+    "enzyme": "3.7.0",
+    "enzyme-adapter-react-16": "1.7.0",
+    "sort-package-json": "1.16.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

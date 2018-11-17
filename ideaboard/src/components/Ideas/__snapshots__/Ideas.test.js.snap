@@ -34,7 +34,7 @@ ShallowWrapper {
       "$$typeof": Symbol(react.forward_ref),
       "attrs": Array [],
       "componentStyle": ComponentStyle {
-        "componentId": "sc-bxivhb",
+        "componentId": "sc-ifAKCX",
         "isStatic": true,
         "rules": Array [
           "
@@ -46,7 +46,7 @@ ShallowWrapper {
       },
       "displayName": "Styled(Container)",
       "render": [Function],
-      "styledComponentId": "sc-bxivhb",
+      "styledComponentId": "sc-ifAKCX",
       "target": [Function],
       "toString": [Function],
       "warnTooManyClasses": [Function],
@@ -77,7 +77,7 @@ ShallowWrapper {
         "$$typeof": Symbol(react.forward_ref),
         "attrs": Array [],
         "componentStyle": ComponentStyle {
-          "componentId": "sc-bxivhb",
+          "componentId": "sc-ifAKCX",
           "isStatic": true,
           "rules": Array [
             "
@@ -89,7 +89,7 @@ ShallowWrapper {
         },
         "displayName": "Styled(Container)",
         "render": [Function],
-        "styledComponentId": "sc-bxivhb",
+        "styledComponentId": "sc-ifAKCX",
         "target": [Function],
         "toString": [Function],
         "warnTooManyClasses": [Function],

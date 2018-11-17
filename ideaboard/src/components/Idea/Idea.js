@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { bool, func, shape, string } from 'prop-types';
-import { IdeaWrapper, IdeaBodyText } from './Idea.styles';
+import { IdeaWrapper, IdeaBodyText, IdeaTitleText } from './Idea.styles';
 import { Col, Form, FormGroup, Input } from 'reactstrap';
 import axios from 'axios';
 
@@ -63,7 +63,7 @@ class Idea extends Component {
           </Form>
         ) : (
           <>
-            <p className="lead">{title}</p>
+            <IdeaTitleText className="lead">{title}</IdeaTitleText>
             <IdeaBodyText>{body}</IdeaBodyText>
           </>
         )}

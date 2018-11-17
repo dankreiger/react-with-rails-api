@@ -15,6 +15,13 @@ export const IdeaWrapper = styled(Card)`
   height: 175px;
 `;
 
+export const IdeaTitleText = styled.p`
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+`;
+
 export const IdeaBodyText = styled.p`
   display: block; /* Fallback for non-webkit */
   display: -webkit-box;

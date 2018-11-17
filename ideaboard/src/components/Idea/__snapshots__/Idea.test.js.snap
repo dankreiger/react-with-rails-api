@@ -20,7 +20,7 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": <React.Fragment>
-        <p
+        <ForwardRef
           className="lead"
         />
         <ForwardRef />
@@ -33,7 +33,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <p
+          <ForwardRef
             className="lead"
           />,
           <ForwardRef />,
@@ -44,14 +44,36 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "function",
           "props": Object {
             "children": undefined,
             "className": "lead",
           },
           "ref": null,
           "rendered": null,
-          "type": "p",
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+",
+              ],
+            },
+            "displayName": "styled.p",
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "p",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
         },
         Object {
           "instance": null,
@@ -66,7 +88,7 @@ ShallowWrapper {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-bwzfXH",
+              "componentId": "sc-htpNat",
               "isStatic": true,
               "rules": Array [
                 "
@@ -93,7 +115,7 @@ ShallowWrapper {
             },
             "displayName": "styled.p",
             "render": [Function],
-            "styledComponentId": "sc-bwzfXH",
+            "styledComponentId": "sc-htpNat",
             "target": "p",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -137,7 +159,7 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": <React.Fragment>
-          <p
+          <ForwardRef
             className="lead"
           />
           <ForwardRef />
@@ -150,7 +172,7 @@ ShallowWrapper {
         "nodeType": "function",
         "props": Object {
           "children": Array [
-            <p
+            <ForwardRef
               className="lead"
             />,
             <ForwardRef />,
@@ -161,14 +183,36 @@ ShallowWrapper {
           Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "host",
+            "nodeType": "function",
             "props": Object {
               "children": undefined,
               "className": "lead",
             },
             "ref": null,
             "rendered": null,
-            "type": "p",
+            "type": Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "sc-bwzfXH",
+                "isStatic": true,
+                "rules": Array [
+                  "
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+",
+                ],
+              },
+              "displayName": "styled.p",
+              "render": [Function],
+              "styledComponentId": "sc-bwzfXH",
+              "target": "p",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            },
           },
           Object {
             "instance": null,
@@ -183,7 +227,7 @@ ShallowWrapper {
               "$$typeof": Symbol(react.forward_ref),
               "attrs": Array [],
               "componentStyle": ComponentStyle {
-                "componentId": "sc-bwzfXH",
+                "componentId": "sc-htpNat",
                 "isStatic": true,
                 "rules": Array [
                   "
@@ -210,7 +254,7 @@ ShallowWrapper {
               },
               "displayName": "styled.p",
               "render": [Function],
-              "styledComponentId": "sc-bwzfXH",
+              "styledComponentId": "sc-htpNat",
               "target": "p",
               "toString": [Function],
               "warnTooManyClasses": [Function],

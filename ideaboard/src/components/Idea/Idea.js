@@ -1,14 +1,15 @@
 import React from 'react';
 import { shape, string } from 'prop-types';
+import { IdeaWrapper, IdeaBodyText } from './Idea.styles';
 
-const Idea = ({title, body}) => {
+const Idea = ({ title, body }) => {
   return (
-    <>
-    <h1>{title}</h1>
-    <p>{body}</p>
-    </>
+    <IdeaWrapper>
+      <p className="lead">{title}</p>
+      <IdeaBodyText>{body}</IdeaBodyText>
+    </IdeaWrapper>
   );
-}
+};
 
 Idea.propTypes = {
   idea: shape({

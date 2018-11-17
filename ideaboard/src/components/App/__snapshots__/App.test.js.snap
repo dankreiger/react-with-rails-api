@@ -15,7 +15,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <ForwardRef>
@@ -25,7 +25,6 @@ ShallowWrapper {
         </ForwardRef>,
         <Ideas />,
       ],
-      "className": "App",
     },
     "ref": null,
     "rendered": Array [
@@ -54,18 +53,19 @@ ShallowWrapper {
           "$$typeof": Symbol(react.forward_ref),
           "attrs": Array [],
           "componentStyle": ComponentStyle {
-            "componentId": "sc-htpNat",
+            "componentId": "sc-EHOje",
             "isStatic": true,
             "rules": Array [
               "
   display: flex;
   justify-content: center;
+  color: #fff;
 ",
             ],
           },
           "displayName": "styled.div",
           "render": [Function],
-          "styledComponentId": "sc-htpNat",
+          "styledComponentId": "sc-EHOje",
           "target": "div",
           "toString": [Function],
           "warnTooManyClasses": [Function],
@@ -82,13 +82,31 @@ ShallowWrapper {
         "type": [Function],
       },
     ],
-    "type": "div",
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-ifAKCX",
+        "isStatic": true,
+        "rules": Array [
+          "
+",
+        ],
+      },
+      "displayName": "styled.div",
+      "render": [Function],
+      "styledComponentId": "sc-ifAKCX",
+      "target": "div",
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <ForwardRef>
@@ -98,7 +116,6 @@ ShallowWrapper {
           </ForwardRef>,
           <Ideas />,
         ],
-        "className": "App",
       },
       "ref": null,
       "rendered": Array [
@@ -127,18 +144,19 @@ ShallowWrapper {
             "$$typeof": Symbol(react.forward_ref),
             "attrs": Array [],
             "componentStyle": ComponentStyle {
-              "componentId": "sc-htpNat",
+              "componentId": "sc-EHOje",
               "isStatic": true,
               "rules": Array [
                 "
   display: flex;
   justify-content: center;
+  color: #fff;
 ",
               ],
             },
             "displayName": "styled.div",
             "render": [Function],
-            "styledComponentId": "sc-htpNat",
+            "styledComponentId": "sc-EHOje",
             "target": "div",
             "toString": [Function],
             "warnTooManyClasses": [Function],
@@ -155,7 +173,25 @@ ShallowWrapper {
           "type": [Function],
         },
       ],
-      "type": "div",
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-ifAKCX",
+          "isStatic": true,
+          "rules": Array [
+            "
+",
+          ],
+        },
+        "displayName": "styled.div",
+        "render": [Function],
+        "styledComponentId": "sc-ifAKCX",
+        "target": "div",
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {

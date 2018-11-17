@@ -18,8 +18,10 @@ ShallowWrapper {
     "nodeType": "function",
     "props": Object {
       "children": Array [
-        <h1 />,
-        <p />,
+        <p
+          className="lead"
+        />,
+        <ForwardRef />,
       ],
     },
     "ref": null,
@@ -30,24 +32,82 @@ ShallowWrapper {
         "nodeType": "host",
         "props": Object {
           "children": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": "h1",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": undefined,
+          "className": "lead",
         },
         "ref": null,
         "rendered": null,
         "type": "p",
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bwzfXH",
+            "isStatic": true,
+            "rules": Array [
+              "
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: ",
+              "57.599999999999994",
+              "px; /* Fallback for non-webkit */
+  margin-bottom: 0;
+  font-size: ",
+              "16",
+              "px;
+  line-height: ",
+              "1.2",
+              ";
+  -webkit-line-clamp: ",
+              "3",
+              ";
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+",
+            ],
+          },
+          "displayName": "styled.p",
+          "render": [Function],
+          "styledComponentId": "sc-bwzfXH",
+          "target": "p",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        },
+      },
     ],
-    "type": Symbol(react.fragment),
+    "type": Object {
+      "$$typeof": Symbol(react.forward_ref),
+      "attrs": Array [],
+      "componentStyle": ComponentStyle {
+        "componentId": "sc-bdVaJa",
+        "isStatic": true,
+        "rules": Array [
+          "
+  margin-bottom: 20px;
+  padding: 20px;
+",
+        ],
+      },
+      "displayName": "Styled(Card)",
+      "render": [Function],
+      "styledComponentId": "sc-bdVaJa",
+      "target": [Function],
+      "toString": [Function],
+      "warnTooManyClasses": [Function],
+      "withComponent": [Function],
+      Symbol(Symbol.hasInstance): [Function],
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -56,8 +116,10 @@ ShallowWrapper {
       "nodeType": "function",
       "props": Object {
         "children": Array [
-          <h1 />,
-          <p />,
+          <p
+            className="lead"
+          />,
+          <ForwardRef />,
         ],
       },
       "ref": null,
@@ -68,24 +130,82 @@ ShallowWrapper {
           "nodeType": "host",
           "props": Object {
             "children": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": "h1",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": undefined,
+            "className": "lead",
           },
           "ref": null,
           "rendered": null,
           "type": "p",
         },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "attrs": Array [],
+            "componentStyle": ComponentStyle {
+              "componentId": "sc-bwzfXH",
+              "isStatic": true,
+              "rules": Array [
+                "
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+  height: ",
+                "57.599999999999994",
+                "px; /* Fallback for non-webkit */
+  margin-bottom: 0;
+  font-size: ",
+                "16",
+                "px;
+  line-height: ",
+                "1.2",
+                ";
+  -webkit-line-clamp: ",
+                "3",
+                ";
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+",
+              ],
+            },
+            "displayName": "styled.p",
+            "render": [Function],
+            "styledComponentId": "sc-bwzfXH",
+            "target": "p",
+            "toString": [Function],
+            "warnTooManyClasses": [Function],
+            "withComponent": [Function],
+          },
+        },
       ],
-      "type": Symbol(react.fragment),
+      "type": Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": true,
+          "rules": Array [
+            "
+  margin-bottom: 20px;
+  padding: 20px;
+",
+          ],
+        },
+        "displayName": "Styled(Card)",
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+        Symbol(Symbol.hasInstance): [Function],
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {

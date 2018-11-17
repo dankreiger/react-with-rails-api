@@ -1,8 +1,8 @@
 import styled from 'styled-components';
+import { Container } from 'reactstrap';
 
-export const IdeaWrapper = styled.div`
+export const IdeasContainer = styled(Container)`
+  height: calc(100vh - 80px);
   display: flex;
-  justify-content: center;
-  flex-direction: column;
   align-items: center;
 `

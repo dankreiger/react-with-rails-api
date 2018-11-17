@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dankreiger/react-with-rails-api.svg?branch=master)](https://travis-ci.org/dankreiger/react-with-rails-api)
+
 # README
 
 ## Setup:

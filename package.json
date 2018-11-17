@@ -15,7 +15,7 @@
   },
   "lint-staged": {
     "app/**/*.{js,es6,jsx}": [
-      "./node_modules/prettier/bin/prettier.js --trailing-comma --single-quote es5 --write",
+      "prettier.js --trailing-comma --single-quote es5 --write",
       "git add"
     ],
     "ideaboard/src/components/**/*.{js,scss,css}": [

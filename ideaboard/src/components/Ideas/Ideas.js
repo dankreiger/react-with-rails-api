@@ -19,16 +19,23 @@ export default class Ideas extends Component {
   addNewIdea = () => {
     axios
       .post('http://localhost:3001/api/v1/ideas', {
-        idea: { title: '', body: '' }
+        idea: { title: '', body: '' },
       })
       .then(response => {
         console.log(response);
         const ideas = update(this.state.ideas, {
-          $splice: [[0, 0, response.data]]
+          $splice: [[0, 0, response.data]],
         });
         this.setState({ ideas, editingIdeaId: response.data.id });
       })
       .catch(error => console.log(error));
+  };
+  updateIdea = idea => {
+    const ideaIndex = this.state.ideas.findIndex(x => x.id === idea.id);
+    const ideas = update(this.state.ideas, {
+      [ideaIndex]: { $set: idea },
+    });
+    this.setState({ ideas });
   };
   render() {
     const { editingIdeaId, ideas } = this.state;
@@ -38,9 +45,14 @@ export default class Ideas extends Component {
           <>
             <Row>
               {ideas.map(idea => (
-              <Col xs="12" md="6" key={idea.id}>
-                <Idea {...idea} currentlyEditing={editingIdeaId === idea.id} />}
-              </Col>
+                <Col xs="12" md="6" key={idea.id}>
+                  <Idea
+                    {...idea}
+                    updateIdea={this.updateIdea}
+                    currentlyEditing={editingIdeaId === idea.id}
+                  />
+                  }
+                </Col>
               ))}
             </Row>
             <Row>

@@ -7,6 +7,8 @@
     "sort-package-json": "1.16.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "7.2.1",
+    "@commitlint/config-conventional": "7.1.2",
     "husky": "1.1.4",
     "lint-staged": "8.0.5",
     "prettier": "1.15.2"
@@ -16,8 +18,8 @@
       "./node_modules/prettier/bin/prettier.js --trailing-comma --single-quote es5 --write",
       "git add"
     ],
-    "ideaboard/**/*.{js,es6,jsx,scss,css}": [
-      "./node_modules/prettier/bin/prettier.js --single-quote --trailing-comma es5 --write",
+    "ideaboard/src/components/**/*.{js,scss,css}": [
+      "prettier --single-quote --trailing-comma --write",
       "git add"
     ],
     "{app,test}/**/*.rb": [

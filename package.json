@@ -1,8 +1,8 @@
 {
   "scripts": {
-    "start": "rails server -p 3001",
     "precommit": "lint-staged",
-    "sort": "sort-package-json"
+    "sort": "sort-package-json",
+    "start": "rails server -p 3001"
   },
   "dependencies": {
     "sort-package-json": "1.16.0"

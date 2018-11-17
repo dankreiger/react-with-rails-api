@@ -111,8 +111,12 @@ ShallowWrapper {
         "isStatic": true,
         "rules": Array [
           "
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 20px;
+  height: 175px;
 ",
         ],
       },
@@ -224,8 +228,12 @@ ShallowWrapper {
           "isStatic": true,
           "rules": Array [
             "
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 20px;
+  height: 175px;
 ",
           ],
         },

@@ -39,7 +39,7 @@ class Idea extends Component {
     return (
       <IdeaWrapper>
         {currentlyEditing ? (
-          <Form onBlur={this.handleBlur}>
+          <Form onBlur={this.handleBlur} className="w-100">
             <FormGroup row>
               <Col>
                 <Input

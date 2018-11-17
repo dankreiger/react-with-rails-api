@@ -40,12 +40,12 @@ export default class Ideas extends Component {
   render() {
     const { editingIdeaId, ideas } = this.state;
     return (
-      <IdeasContainer>
+      <IdeasContainer fluid>
         {ideas.length ? (
           <>
             <Row>
               {ideas.map(idea => (
-                <Col xs="12" md="6" key={idea.id}>
+                <Col xs="12" sm="6" md="4" key={idea.id}>
                   <Idea
                     {...idea}
                     updateIdea={this.updateIdea}

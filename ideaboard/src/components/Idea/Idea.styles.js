@@ -7,8 +7,12 @@ const linesToShow = 3;
 const fallbackHeight = fontSize * lineHeight * linesToShow;
 
 export const IdeaWrapper = styled(Card)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
   padding: 20px;
+  height: 175px;
 `;
 
 export const IdeaBodyText = styled.p`
